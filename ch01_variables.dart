@@ -3,7 +3,7 @@ void main() {
   // 세미 콜론(') 필요!
   print('hello world!');
 
-  /* 변수 선언 */
+  /** 변수 선언 */
   // ## 자료형 고정 ##
   // 1. var : 컴파일러가 자동으로 어떤 자료형인지 판단
   var name = "zam_on";
@@ -13,6 +13,7 @@ void main() {
   // ## 자료형 자유 ##
   // dynamic : 자료형 상관없이 값 할당 가능
   // var로 선언 후 값 초기화 안하면 dynamic으로 지정됨
+  // 항상 dynamic 변수를 사용하기 전에 자료형 체크 조건 필요
   var test; // = dynamic test;
   test = "hello";
   test = 1;
@@ -36,7 +37,7 @@ void main() {
   // do somtghing... (ex. api)
   temp = '';
 
-  /* Null safety */
+  /** Null safety */
   // 자료형 뒤에 물음표(?)를 붙이면 해당 변수에 null이 저장될 수 있음
   // String hello = null ;  // error
   String? hello = null; // ok
