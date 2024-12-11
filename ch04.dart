@@ -1,5 +1,3 @@
-import 'dart:ffi';
-
 /** Typedef 
  *  : 자료형에 별명을 설정할 수 있음
  *    typedef 별명 = 자료형;
